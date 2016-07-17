@@ -1,0 +1,23 @@
+{
+  "name": "Examle",
+  "version": "0.0.1",
+  "description": "Web page contains different parts of different sites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "A.Ratnikov",
+  "license": "MIT",
+  "devDependencies": {
+    "sass-loader": "~4.0.0",
+    "node-sass": "~3.8.0",
+    "style-loader": "~0.13.1",
+    "css-loader": "~0.23.1",
+    "webpack": "~1.13.1",
+    "extract-text-webpack-plugin": "~1.0.1"
+  },
+  "dependencies": {
+    "font-awesome": "^4.6.3",
+    "reset-css": "~2.0.2011012603"
+  }
+}

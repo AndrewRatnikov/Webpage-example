@@ -1,0 +1,206 @@
+.error {
+	border: 1px solid #ff0000 !important;
+}
+
+.signup {
+	box-sizing: border-box;
+	font-weight: 400;
+  font-size: 100%;
+  line-height: 1.5em;
+  font-family: "Open Sans", "open-sans", sans-serif;
+	text-align: center;
+	padding: 100px 0 85px; 
+	background-color: #323a45;
+}
+
+@media (min-width: 550px) {
+	.signup {
+		padding-top: 130px;
+		padding-bottom: 115px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.signup {
+		padding-top: 140px;
+		padding-bottom: 125px;
+	}
+}
+
+@media (min-width: 1240px) {
+	.signup {
+		padding-top: 160px;
+		padding-bottom: 145px;
+	}
+}
+
+.signup-inside {
+	box-sizing: border-box;
+	max-width: 1320px;
+	margin: 0 auto;
+	padding: 0 20px;
+	h2 {
+		font-weight: 300;
+  	font-size: 25px;
+  	line-height: 42px;
+		color: #fff;
+		margin-bottom: 45px;
+		strong {
+			font-weight: 700;
+		}
+	}
+	form {
+		box-sizing: border-box;
+		display: inline-block;
+		margin-bottom: 31px;
+		&:after {
+			content: ' ';
+			display: table;
+			clear: both;
+		}
+		p {
+			position: relative;
+			box-sizing: border-box;
+			input[type="text"] {
+				box-sizing: border-box;
+				width: 100%;
+		    height: 63px;
+		    font-weight: 400;
+		    font-size: 18px;
+    		color: #8a959e;
+		    line-height: 1em;
+		    margin-bottom: 2px; 
+		    border: 1px solid #d4d7da;
+		    border-radius: 3px;
+		    padding: 18px 15px 18px 48px;
+		    &:focus {
+						outline: none;
+		    }
+			}
+			label {
+				position: absolute;
+				top: 0;
+				left: 0;
+				box-sizing: border-box;
+				margin-top: 16px;
+				margin-left: 50px;
+			}
+			i {
+				position: absolute;
+				top: 18px;
+				left: 15px;
+			}
+			button {
+				display: inline-block;
+				width: 100%;
+				height: 62px;
+				font-size: 15px;
+				line-height: 1em;
+				font-family: "brandon-grotesque", sans-serif;
+				font-weight: 700;
+				text-transform: uppercase;
+				color: #fff;
+				background-color: #ff3366;
+				border: 0;
+				border-radius: 5px;
+				padding: 21px 20px 19px;
+				cursor: pointer;
+				transition: background 0.3s;
+			}
+		}
+	}
+	p {
+		font-size: 18px;
+    line-height: 1.8em;
+    color: #747c83;
+	}
+}
+
+@media (min-width: 550px) {
+	.signup-inside {
+		h2 {
+			font-size: 30px;
+  		line-height: 52px;
+			margin-bottom: 55px;
+		}
+		form {
+			p {
+				input[type="text"] {
+					width: 500px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1024px) {
+	.signup-inside {
+		form {
+			p {
+				float: left;
+				input[type="text"] {
+					width: 220px;
+		    	margin-right: 10px;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1240px) {
+	.signup-inside {
+		form {
+			p {
+				input[type="text"] {
+					width: 280px;
+				}
+				button {
+					padding-right: 40px;
+					padding-left: 40px;
+				}
+			}
+		}
+	}
+}
+
+p.terms {
+	font-size: 12px;
+	a {
+		color: #747c83;
+    text-decoration: underline;
+    &:hover {
+    	color: #fff;
+    }
+	}
+}
+
+.ico-user {
+	display: inline-block;
+	vertical-align: middle;
+	height: 24px;
+	width: 24px;
+	background-image: url('https://www.invisionapp.com/assets/img/sprites/global-s116e8c6936.png');
+	background-position: 0 -474px;
+	background-repeat: no-repeat;
+}
+
+.ico-email {
+	display: inline-block;
+	vertical-align: middle;
+	height: 24px;
+	width: 24px;
+	background-image: url('https://www.invisionapp.com/assets/img/sprites/global-s116e8c6936.png');
+	background-position: 0 -386px;
+	background-repeat: no-repeat;
+}
+
+.ico-lock {
+	display: inline-block;
+	vertical-align: middle;
+	height: 24px;
+	width: 24px;
+	background-image: url('https://www.invisionapp.com/assets/img/sprites/global-s116e8c6936.png');
+	background-position: 0 -430px;
+	background-repeat: no-repeat;
+}
